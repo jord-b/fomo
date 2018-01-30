@@ -1,0 +1,12 @@
+<%inherit file="app_base.html" />
+
+<%block name="topContent">
+    <h3>Contact Us!</h3>
+</%block>
+
+<%block name="contactForm">
+    ${ csrf_input }
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br>
+    <input type="submit" value="Submit">
+</%block>

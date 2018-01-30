@@ -1,0 +1,21 @@
+h4.utc-time {
+    color: #AA3333;
+}
+
+#leftCol {
+    background-color: yellow;
+    height: 500px;
+}
+
+#midCol {
+    background-color: red;
+    height: 500px;
+}
+
+#rightCol {
+    background-color: lavender;
+    height: 500px;
+}
+
+
+

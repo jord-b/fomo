@@ -1,0 +1,55 @@
+html, body, {
+    margin: 0;
+    padding: 0;
+}
+
+#icon {
+    width: 100%;
+}
+
+#iconDiv {
+    width: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#homepageJumbo {
+    background-color: lightblue;
+    text-align: center;
+    margin: 0;
+}
+
+.homepageCol {
+    text-align: center;
+    margin: 0;
+    height: 400px;
+}
+
+header {
+    background-color: #147871;
+    padding: 15px 20px;
+    border-top: 4px solid #606060;
+    border-bottom: 4px solid #606060;
+}
+
+header h1 {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 15px;
+}
+
+#maintenanceMessage {
+    background-color: #C03928;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer {
+background-color: lightgray;
+}
