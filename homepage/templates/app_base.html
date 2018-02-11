@@ -1,12 +1,12 @@
 <%inherit file="base.htm" />
 
 
-<%block name="menu">
+<%block name="navbar_items">
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a id="iconDiv" class="navbar-brand" href="/homepage/"><img id="icon" src="${ STATIC_URL }homepage/media/cello.jpg"/></a>
+                <a id="iconDiv" class="navbar-brand" href="/account/"><img id="icon" src="${ STATIC_URL }homepage/media/cello.jpg"/></a>
             </div>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/homepage/">Home</a></li>
@@ -25,5 +25,6 @@
             </ul>
         </div>
     </nav>
+
 
 </%block>
