@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_mako_plus',
     'homepage',
-    'formlib-master'
+    'formlib-master',
+    'account',
+    'catalog',
 ]
 
 MIDDLEWARE = [
