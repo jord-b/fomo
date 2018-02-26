@@ -7,4 +7,4 @@ def process_request(request):
     utc_time = datetime.utcnow()
     context = {
     }
-    return request.dmp_render('formtest.html', context)
+    return request.dmp.render('formtest.html', context)
