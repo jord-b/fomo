@@ -6,5 +6,6 @@ from datetime import datetime, timezone
 def process_request(request):
     utc_time = datetime.utcnow()
     context = {
+
     }
-    return request.dmp.render('formtest.html', context)
+    return request.dmp.render('logout.html', context)

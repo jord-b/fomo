@@ -6,9 +6,9 @@ from datetime import datetime, timezone
 def process_request(request):
     utc_time = datetime.utcnow()
     context = {
-        # sent to index.html:
+        # sent to formtest.html:
         'utc_time': utc_time,
-        # sent to index.html and index.js:
+        # sent to formtest.html and index.js:
         jscontext('utc_epoch'): utc_time.timestamp(),
     }
-    return request.dmp.render('index.html', context)
+    return request.dmp.render('formtest.html', context)
