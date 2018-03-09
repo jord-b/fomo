@@ -14,5 +14,6 @@ def process_request(request):
 
 
 class testForm(forms.Form):
-    renewal_date = forms.DateField(help_text="Enter a date between now and 4 weeks (default 3).")
+    name = forms.CharField(label = "Name")
+    date = forms.DateField(label = "Date")
     comment = forms.CharField(label = "Your comment")

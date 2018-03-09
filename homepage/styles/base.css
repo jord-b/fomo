@@ -14,10 +14,13 @@ html, body, {
 }
 
 #homepageJumbo {
-    background-color: lightblue;
     text-align: center;
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    color: white;
+    background-color: #2C344F
 }
+
 
 .homepageCol {
     text-align: center;
@@ -50,6 +53,32 @@ main {
     text-align: center;
 }
 
+#subTopContent {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    height: 150px;
+}
+
+.col-md-4 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#rentalButton {
+}
+
 footer {
 background-color: lightgray;
+}
+
+button>a {
+    color: white;
+}
+
+button>a:hover {
+    color:white;
 }

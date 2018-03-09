@@ -10,7 +10,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="${ STATIC_URL }homepage/media/bootstrap/css/bootstrap.css"/>
         <link rel="icon" href="${ STATIC_URL }homepage/media/cello.jpg"/>
-
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
         ## render the static file links with the same name as this template
         <script src="/django_mako_plus/dmp-common.min.js"></script>
         ${ django_mako_plus.links(self) }
@@ -34,29 +34,24 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" id="subTopContent">
                 <%block name="subTopContent"></%block>
             </div>
 
-            <div id="leftCol" class="col-md-4">
-                <%block name="content_left"></%block>
-            </div>
+            <div class="row" id="rowCol">
+                <div id="leftCol" class="col-md-4">
+                    <%block name="content_left"></%block>
+                </div>
 
-            <div id="midCol" class="col-md-4">
-                <%block name="content_middle"></%block>
-            </div>
+                <div id="midCol" class="col-md-4">
+                    <%block name="content_middle"></%block>
+                </div>
 
-            <div id="rightCol" class="col-md-4">
-                <%block name="content_right"></%block>
+                <div id="rightCol" class="col-md-4">
+                    <%block name="content_right"></%block>
+                </div>
             </div>
         </main>
-
-
-        <form action="/contact/" method="post">
-            <%block name="contactForm">
-
-            </%block>
-        </form>
 
         <footer>
             <%block name="footer">
